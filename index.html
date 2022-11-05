@@ -7,39 +7,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+
 </head>
 
 <body>
 
     <div class="grid-container">
 
-        <nav>Inmobiliaria</nav>
+        <nav><h2>Inmobiliaria</h2></nav>
 
         <menu class="menu">
-            <div class="cantidadCuartos">
+            
                 <p>Cantidad de cuartos</p>
-                <input class="number">
-            </div>
-
-            <p>Metros cuadrados</p>
-            <div class="metrosCuadrados"></div>
-            <div class="desde">
-                <p>Desde</p>
-                <input class="number">
-            </div>
-            <div class="hasta">
-                <p>Hasta</p>
-                <input class="number">
-            </div>
-
-
+                <input class="input1" type="number">
+                       
+                <p>Metros cuadrados</p>
+                    <div class="desde-hasta">
+                <div class="desde">
+                        <p>Desde</p>
+                        <input class="input2" type="number">
+                    </div>
+                    <div class="hasta">
+                        <p>Hasta</p>
+                        <input class="input2" type="number">
+                    </div>
+                    </div>
+            <button onclick="click">Buscar</button>
 
         </menu>
 
-        <main>
+        <main class="main">
 
-            prueba
+            <div class="card" style="width: 25rem;">
+                <img src="./assets/img/casa1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 25rem;">
+                <img src="./assets/img/casa2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 25rem;">
+                <img src="./assets/img/casa3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 25rem;">
+                <img src="./assets/img/casa4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Casa de Campo</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 25rem;">
+                <img src="./assets/img/casa5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 25rem;">
+                <img src="./assets/img/casa6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
         </main>
+    
     </div>
 </body>
 
