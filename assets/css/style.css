@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(162, 161, 161);
+    padding: 15px;
+}
+
+menu {
+    grid-area: menu;
+    background-color: rgb(162, 161, 161);
+    padding: 15px;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(162, 161, 161);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'nav nav'
+        'menu main'
+        
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: auto;
+    max-height: 80vh;
+}
+
+
+.metrosCuadrados {
+    display: flex;
+    flex-direction: row;
+}
+
+.desde {
+    display: flex;
+    flex-direction: column;
+}
+
+.hasta {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+input {
+    width: 60px;
+}
